@@ -1,5 +1,4 @@
-import { use } from "react";
-import conf from "../conf/conf.js"
+ import conf from "../conf/conf.js"
 
 import { Client, Account, ID } from "appwrite";
 
@@ -9,8 +8,8 @@ export class AuthService {
 
     constructor(){
         this.client
-            .setEndpoint(conf.appwriteUrl)
-            .setProject(conf.appwriteProjectId);
+        .setEndpoint(conf.appwriteUrl)
+        .setProject(conf.appwriteProjectId);
         this.account = new Account(this.client);
 
     }
