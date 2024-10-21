@@ -2,6 +2,8 @@ import conf from "../conf/conf.js"
 import {Client,Databases,ID,Storage,Query} from "appwrite"
 
 
+// This is basically template you can use whenever you are making project
+
 export class Service{
 
     client = new Client();
@@ -120,6 +122,7 @@ export class Service{
         )
     }
 }
+
 
 const service = new Service()
 export default service
