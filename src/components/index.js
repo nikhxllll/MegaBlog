@@ -5,4 +5,4 @@ import container from "./container/container";
 export {Header,
         Footer,
         container
-    } //Exporting the Header and footer components 
+    } //Exporting components via this index file 
